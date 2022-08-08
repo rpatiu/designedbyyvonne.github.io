@@ -1,0 +1,112 @@
+<!-------f--------
+
+    Project 3
+    Name: Rasmin Patiu
+    Date: December 1, 2020
+    Description: Contact page for Designed By Yvonne
+
+----------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<script type="text/javascript" src="projectvalidation.js"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+		<title>Designed By Yvonne</title>
+</head>
+<body>
+	<header>
+		<div id="logo"><a href="index.html">dby</a></div>
+		<ul id="top">
+			<li id="one"> </li>
+			<li id="two">Designed By Yvonne</li>
+			<li id="three">
+				<p>
+					<a href="http://instagram.com/designedbyyvonne" target="_blank"><img src="images/instagram.png" alt="ig" class="social"></a>
+					<a href="mailto:designedbyyvonne@gmail.com"><img src="images/mail.png" alt="mail" class="social"></a>
+				</p>
+			</li>
+		</ul>
+	</header>
+	<div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="illustrations.html">Illustrations</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	<main>
+		<div id="article">
+			<form method="post" id="contact_form" action="index.html">
+				<h4>I'd love to hear from you!</h4>
+				<p>Send me a message for pricing and inquiries</p>
+				<ul>
+					<li>
+						<label for="name">Full Name</label>
+						<input type="text" name="name" id="name" autofocus="autofocus" placeholder="NAME"/>
+						<div class="error" id="name_error">* Required field</div>
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email" placeholder="@" />
+						<div class="error" id="email_error">* Required field</div>
+						<div class="error" id="emailformat_error">* Invalid email address</div>
+					</li>
+					<li>
+						<label for="phone">Phone</label>
+						<input type="tel" name="phone" id="phone" placeholder="(###)###-####"/>
+						<div class="error" id="phone_error">* Required field</div>
+						<div class="error" id="phoneformat_error">* Invalid phone number</div>
+					</li>
+					<li>
+						<label for="inquiries">Inquiries</label>
+						<textarea name="inquiries" id="inquiries" rows="5"></textarea>
+					</li>
+				</ul>
+				<button type="submit">Submit</button>
+				<button type="reset" id="clear">Clear</button>
+			</form>
+		</div>
+		<div id="sidebar">
+			<div>Featured Service</div>
+			<p>One of a kind look for an affordable price!</p>
+			<div class="hover">Brand Package..</div>
+			<ul class="hide">
+				<li>Includes:</li>
+				<li>Primary logo*</li>
+				<li>Submark logo</li>
+				<li>Watermarks</li>
+				<li>Story Highlight Icons</li>
+				<li>Patterns</li>
+				<li>IG logo and banner</li>
+				<li>Social media item of your choice</li>
+				<li><p>*Also offering logo only</p></li>
+			</ul>
+			<p>Learn more in the products page</p>
+		</div>
+	</main>
+	<footer>
+		<div id="footer">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="illustrations.html">Illustrations</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<p>Copyright © 2020 <a href="#">Designed By Yvonne</a></p>
+			<div>
+				<p>Winnipeg, MB Canada</p>
+			</div>
+		</div>
+	</footer>
+	</body>
+</html>

@@ -1,0 +1,462 @@
+/******f**********
+    
+    Project 1 Stylesheet
+    Name: Rasmin Patiu
+    Date: December 1, 2020
+    Description: CSS for Designed By Yvonne.
+
+*****************/
+
+html, div, body, ol, ul, header, img, nav, main,
+figure, p{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	vertical-align: baseline;
+}
+
+ol, ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:visited, a:link, a:active{
+	color: #1B6760;
+}
+
+body{
+		font-family: 'Quicksand';
+		font-size: 1.5em;
+		color: #1B6760;
+	}
+
+	header{
+		background-color: #A0DDD8;
+	}
+
+		div#logo{
+			font-family: 'Abril Fatface';
+			font-size: 2em;
+			text-align: center;
+			padding: 5px 0px 10px 0px;
+		}
+
+		ul#top{
+			display: flex;
+			justify-content: space-around;
+			background-color: #D4EFED;
+			font-family: 'Pacifico';
+			padding-bottom: 5px;
+			font-size: .8em;
+		}
+
+		li#three, li#one{
+			display: none;
+		}
+
+			img.social{
+				height: 20px;
+				opacity: 50%;
+			}
+
+	div nav ul{
+		background-color: #F8F5E4;
+		display: flex;
+		justify-content: center;
+	}
+
+		div nav ul li{
+			border-right: 1px outset white;
+			padding: 6px 15px;
+			color: #1B6760;;
+			font-size: 12px;
+			text-transform: uppercase;
+
+		}
+
+		nav ul li:last-of-type{
+			border: none;
+			box-shadow: none;
+		}
+
+			nav ul li:hover, nav ul li a:focus{
+				background-color: #6A9390;
+				color: white;
+			}
+
+			nav a:hover{
+				color: white;
+			}
+
+	main{
+		display: flex;
+		flex-direction: column;
+	}
+
+		#article div{
+			text-align: center;
+		}
+			#home{
+				color: #1B6760;
+			}
+
+				#home p{
+					font-size: .7em;
+					background-color: white;
+					padding: 10px 20px;
+					border-radius: 20px;
+					width: 350px;
+					margin: auto;
+					text-align: justify;
+					padding: 20px 30px;
+				}
+
+				img#homelogo{
+					width: 400px;
+					height: auto;
+					text-align: center;
+				}
+
+				img.mockup{
+					width: 350px;
+					height: auto;
+					margin: 20px;
+					border-radius: 20px;
+					border: 5px #BF8679 solid;
+				}
+
+				#home h6, #home h4{
+					color: #CF6114;
+					text-shadow: 3px 3px white;
+				}
+
+	main div#sidebar{
+		color: #CF6114;
+		border: 5px white solid;
+		border-radius: 15px;
+		padding: 5px 15px;
+		background-color: #FDE49F;
+		font-size: .6em;
+		margin: 10px;
+	}
+
+
+		div#sidebar div{
+			font-family: 'Pacifico';
+			font-size: 1.5em;
+			text-shadow: 2px 2px white;
+		}
+
+		div#sidebar p{
+			text-transform: uppercase;
+		}
+
+			#sidebar ul p{
+				font-style: italic;
+				text-transform: none;
+			}
+
+		main div div#pics h3{
+			font-weight: normal;
+			font-family: 'Pacifico';
+			font-size: 1.3em;
+			text-shadow: 2px 2px white;
+		}
+
+		main div div#pics img{
+			width: 300px;
+			height: auto;
+			margin: 5px;
+			border: 5px #C7AABD solid;
+			border-radius: 5px;
+		}
+
+		#services img{
+			width: 80%;
+			height: auto;
+			margin: 10px;
+			border-radius: 5px;
+			border: 3px white solid;
+		}
+
+		#products img{
+			width: 80%;
+			height: auto;
+			margin: 10px;
+			border-radius: 5px;
+			border: 3px white solid;
+		}
+
+		#services, #products{
+			text-align: center;
+		}
+
+		#article h2.heading{
+			text-align: left;
+			font-family: 'Pacifico';
+			margin: 20px 0px;
+			font-size: 1.5em;
+			text-shadow: 3px 1px white;
+		}
+
+		#article div.item{
+			font-family: 'Pacifico';
+			font-size: 1.1em;
+		}
+
+		#article div.item p{
+			font-weight: 100px;
+			font-size: .7em;
+		}
+
+		#article div.item h4{
+			font-weight: normal;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		div.title{
+			font-size: .8em;
+		}
+
+			.description ul{
+				font-size: .8em;
+				text-align: center;
+			}
+
+			.description div.title p:nth-child(2){
+				text-decoration: underline;
+			}
+
+
+				.note{
+					font-size: .8em;
+					font-style: italic;
+				}
+
+
+body footer{
+		display: flex;
+		justify-content: center;
+		margin: 80px 0px 20px 0px;
+		font-size: 0.45em;
+		text-align: center;
+	}
+
+		footer ul{
+			padding-bottom: 0px;
+			justify-content: center;
+			display: flex;
+		}
+
+			footer ul li{
+				border-right: 1px solid black;
+				padding: 0px 7px;
+				border-right: 1px solid #0E90E4;
+
+			}
+
+			ul li:last-of-type{
+				border: none;
+			}
+
+		footer div div{
+			align-items: center;
+			margin-bottom: 20px;
+		}
+
+			footer div div p{
+				color: #A6ACAF;
+				border-right: 1px solid black;
+				padding: 0px 7px;
+			}
+
+			footer div div p:last-of-type{
+				border: none;
+			}
+
+form, div#article{
+	background:#F3E9E7;
+	padding:20px;
+	color: #FD6D6E;
+}
+	form h4{
+		margin: 0px;
+		padding: 0px;
+		font-weight: normal;
+		font-family: 'Pacifico';
+		color: #FD6D6E;
+		text-shadow: 2px 2px white;
+		font-size: 1.3em;
+	}
+
+	form ul{
+		padding: 20px 0px;
+		
+	}
+	
+		form label{
+			float:left;
+			font-size: .8em;
+			width: 110px;
+			vertical-align: center;
+		}
+
+		#article form ul div.error{
+			display: none;
+			color: red;
+			font-family: 'Quicksand';
+			text-transform: italic;
+			font-size: .6em;
+			text-shadow: 1px 1px red;
+			text-align: left;
+			text-indent: 120px;
+		}
+
+		form input,
+		form textarea{
+			background:#FFF;
+			border:none;
+			border-radius:3px;
+			font:italic 13px Georgia, "Times New Roman", Times, serif;
+			padding: 5px;
+			width: 40%;
+			margin: 5px;
+		}
+
+		form input:focus, form textarea:focus{
+			background-color: #F1CBCF;
+			border: 1px #4C557C solid;
+			color: #4C557C;
+		}
+
+	button{
+		background-color: #BF8679; 
+		color: white;
+		padding: 10px;
+		border-radius: 5px 5px 5px 5px;
+		border: 2px #9C3F22 solid;
+		font-size: .7em;
+		text-transform: uppercase;
+	}
+
+@media(min-width: 1000px){
+
+	header{
+		display: flex;
+	}
+
+		div#logo{
+			font-size: 2em;
+			text-align: center;
+			text-shadow: 2px 2px #E9E9E9;
+			padding: 5px 20px 5px 20px;
+			flex: 1;
+			border: 4px white dotted;
+			margin: 2px;
+		}
+
+		ul#top{
+			display: flex;
+			justify-content: space-between;
+			flex: 20;
+			vertical-align: center;
+			padding: 20px;
+			font-size: 1.3em;
+			text-shadow: 3px 3px white;
+			
+		}		
+
+			li#one{
+				order:2;
+				display: block;
+			}
+
+			li#two{
+				order:1;
+			}
+
+			li#three{
+				order:3;
+				display: block;
+			}
+
+				img.social{
+					width: 20px;
+					height: auto;
+				}
+
+		div nav ul{
+			background-color: #F8F5E4;
+			display: flex;
+			justify-content: flex-start;
+		}
+
+			div nav ul li{
+				border: none;
+			}
+
+	main{
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+	}
+
+		div#article{
+			border: 8px #E9B896 outset;
+			border-radius: 15px;
+			width: 700px;
+			margin: auto;
+			margin-top: 30px;
+			padding: 30px;
+		}
+
+			img.mockup{
+				width: 80%;
+				height: auto;
+			}
+
+			#services img{
+				width: 200px;
+			}
+
+			form ul{
+				position: center;
+				padding: 30px 0px;
+			}
+
+
+		main div#sidebar{
+			border: 5px white solid;
+			border-radius: 15px;
+			padding: 5px 15px;
+			font-size: .6em;
+			width: 300px;
+			margin: auto;
+			margin-top: 25px;
+		}
+
+
+			div#sidebar div{
+				font-size: 1.5em;
+			}
+				.hide{
+					display: none;
+				}
+
+				.hover:hover + .hide{
+					display: block;
+				}
+
+				#sidebar ul p{
+					font-style: italic;
+					text-transform: none;
+				}
+}
+
+
+
+
